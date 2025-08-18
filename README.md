@@ -91,7 +91,3 @@ We use the **UCI Heart Disease Dataset**, which contains patient health attribut
   - Logistic Regression Accuracy: 90%
   - Random Forest Accuracy: 93%
   - SVM Accuracy: 90%
-
-```
-
-```
