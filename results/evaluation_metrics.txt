@@ -1,0 +1,22 @@
+              Model  Accuracy  Precision  Recall  F1-score   AUC
+      Random Forest     0.883      0.840   0.875     0.857 0.936
+                SVM     0.900      0.846   0.917     0.880 0.925
+Logistic Regression     0.867      0.864   0.792     0.826 0.917
+      Decision Tree     0.700      0.615   0.667     0.640 0.694
+
+
+After Hyperparameter Tuning
+
+             Model  Accuracy  Precision  Recall  F1-score   AUC
+      RandomForest     0.933      0.955   0.875     0.913 0.941
+               SVM     0.900      0.909   0.833     0.870 0.928
+LogisticRegression     0.900      0.909   0.833     0.870 0.925
+      DecisionTree     0.867      0.767   0.958     0.852 0.939
+               XGB     0.850      0.826   0.792     0.809 0.913
+
+
+Unsupervised Learning
+
+	     Model 	 	Accuracy  Precision  Recall   F1-score  
+	     KMeans 		0.838	  0.816      0.839    0.827
+	     Agglomerative 	0.764     0.703      0.847    0.768
