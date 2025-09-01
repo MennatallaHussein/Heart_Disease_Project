@@ -11,7 +11,7 @@ conf.get_default().crl_check = False
 
 def run_streamlit():
     try:
-        subprocess.run(["streamlit", "run", "app.py", "--server.port", "8501"])
+        subprocess.run(["streamlit", "run", "ui/app.py", "--server.port", "8501"])
     except Exception as e:
         print(f"Streamlit error: {e}")
         sys.exit(1)
