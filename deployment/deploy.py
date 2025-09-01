@@ -20,7 +20,7 @@ def start_ngrok():
     try:
         # Create secure tunnel with static domain
         ngrok.set_auth_token("31O5Jg3tEeewHuUt7CEzH3ELSls_6mc1zs75Wsmz8DiUQowoC")
-        public_url = ngrok.connect(8501, "http", options={"region": "eu", "hostname": "heart-demo-ai.ngrok.io"})
+        public_url = ngrok.connect(8501, "http", options={"region": "eu"})
         print(f"\n{'='*50}")
         print(f"✅ Public URL: {public_url}")
         print(f"{'='*50}\n")
